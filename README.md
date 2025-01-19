@@ -1,9 +1,9 @@
 ## Setup
 
 - composer install
+- rename .env.example to .env
 - php artisan key:generate
 - php artisan key:secret
-- rename .env.example to .env
 - php artisan migrate (after adding database in mysql and .env file)
 - php artisan db:seed
 
